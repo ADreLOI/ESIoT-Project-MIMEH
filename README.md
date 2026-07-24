@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # M.I.M.E.H. — Mixed-mode Intelligent Mechanical Electronic Hand
 
 > **ICT Days 2025.** MIMEH was selected as the Embedded Software for the Internet of Things course representative (1 of 21 projects) for presentation at the University of Trento's ICT Days 2025.
@@ -31,6 +33,7 @@
 
 - [M.I.M.E.H Project for Embedded Software for the Internet of Things](#mimeh-project-for-embedded-software-for-the-internet-of-things)
   - [Table of Contents](table-of-contents)
+  - [Quick start](#quick-start)
   - [Idea of the project](#idea-of-the-project-)
   - [Requirements](#requirements-)
     - [Hardware Requirements](#hardware-requirements-)
@@ -481,12 +484,22 @@ The **robotic hand** operates in ***two different modes***, which can be selecte
 <!--=========================================================================-->
 The project was a collaborative effort, with development divided into distinct areas: hand modeling and construction, Python Programming, Arduino programming, and Texas Instruments platform integration.
 
-- [Matthew De Marco](https://github.com/MattDema) ([matthew.demarco@studenti.unitn.it](matthew.demarco@studenti.unitn.it))
+### Contact directory
+
+| Team member | GitHub | LinkedIn | Email |
+| --- | --- | --- | --- |
+| Matthew De Marco | [@MattDema](https://github.com/MattDema) | Profile link pending confirmation | [matthew.demarco@studenti.unitn.it](mailto:matthew.demarco@studenti.unitn.it) |
+| Andrea Lo Iacono | [@ADreLOI](https://github.com/ADreLOI) | [LinkedIn](https://www.linkedin.com/in/adreloi) | [andrea.loiacono@studenti.unitn.it](mailto:andrea.loiacono@studenti.unitn.it) |
+| Andrea Pezzo | [@AndreaP2203](https://github.com/AndreaP2203) | [LinkedIn](https://www.linkedin.com/in/andrea-pezzo-34525b191) | [andrea.pezzo-1@studenti.unitn.it](mailto:andrea.pezzo-1@studenti.unitn.it) |
+
+> LinkedIn profile links are included only when confirmed, so the README never directs visitors to the wrong person.
+
+- [Matthew De Marco](https://github.com/MattDema) 
   - Contributed to the Texas Instruments program by developing the operating menu and integrating Python configuration with the Texas Instruments system.
-- [Andrea Lo Iacono](https://github.com/ADreLOI) ([andrea.loiacono@studenti.unitn.it](andrea.loiacono@studenti.unitn.it))
+- [Andrea Lo Iacono](https://github.com/ADreLOI) 
   - Developed Python code and Python-Arduino integration.
   - Remodeled 3D files for printing hand components and worked on hand construction.
-- [Andrea Pezzo](https://github.com/AndreaP2203) ([andrea.pezzo-1@studenti.unitn.it](andrea.pezzo-1@studenti.unitn.it))
+- [Andrea Pezzo](https://github.com/AndreaP2203) 
   - Contributed to hand construction and Arduino implementation.
   - Assisted in both the Arduino implementation and Texas Instruments development.
 
@@ -515,7 +528,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
 ---
 
 <p align="center">
-  <a href="#mimeh-project-for-embedded-software-for-the-internet-of-things" style="text-decoration: none;">
+  <a href="#top" style="text-decoration: none;">
     <img src="https://img.icons8.com/ios-filled/50/000000/up.png" alt="Back to Top" width="40" height="40"/>
     <br>
     <strong>Back to Top</strong>
