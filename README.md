@@ -1,4 +1,6 @@
-# M.I.M.E.H Project for Embedded Software for the Internet of Things
+# M.I.M.E.H. — Mixed-mode Intelligent Mechanical Electronic Hand
+
+> **ICT Days 2025.** MIMEH was selected as the Embedded Software for the Internet of Things course representative (1 of 21 projects) for presentation at the University of Trento's ICT Days 2025.
 
 
 ***Assoc. prof. <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Yildrim Kasim Sinan</a>***
@@ -16,7 +18,7 @@
 
 <div align="center">
 
-  ![License](https://img.shields.io/github/license/MattDema/EmbeddedIoT_MIMEH?style=for-the-badge&logoSize=auto&labelColor=blue&color=black)  ![Version](https://img.shields.io/badge/Pre-RELEASE?style=for-the-badge&logo=Assets%2FLoghi%2Fmini_logo.jpg&logoSize=auto&label=MIMEH%20version&labelColor=white&color=black)  ![Stars](https://img.shields.io/github/stars/MattDema/EmbeddedIoT_MIMEH?style=for-the-badge&logo=github&logoColor=black&logoSize=auto&labelColor=gold&color=black)  ![Contributors](https://img.shields.io/github/contributors/MattDema/EmbeddedIoT_MIMEH?style=for-the-badge&logo=github&logoColor=white&logoSize=auto&label=contributors&labelColor=green&color=black)  ![Issues](https://img.shields.io/github/issues/MattDema/EmbeddedIoT_MIMEH?style=for-the-badge&logoSize=auto&label=Issues&labelColor=red&color=black)  ![Repo Size](https://img.shields.io/github/repo-size/MattDema/EmbeddedIoT_MIMEH?style=for-the-badge&labelColor=purple&color=black)  
+  ![Version](https://img.shields.io/badge/version-1.0.0-2563eb?style=for-the-badge)  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![Arduino](https://img.shields.io/badge/Arduino_UNO_R4-00979D?style=for-the-badge&logo=arduino&logoColor=white)  ![License](https://img.shields.io/github/license/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)
 
 </div>
 
@@ -59,6 +61,21 @@
   - [License](#license-)
 
 </details>
+
+## Quick start
+
+```bash
+git clone https://github.com/ADreLOI/ESIoT-Project-MIMEH.git
+cd ESIoT-Project-MIMEH/"Python Code"
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# Linux/macOS: source .venv/bin/activate
+python -m pip install -r requirements.txt
+python main.py
+```
+
+> [!NOTE]
+> Gesture-tracking mode needs a webcam. To operate the physical hand, also upload the Arduino and MSP432 firmware and follow the wiring guide below.
 
 
 
@@ -110,8 +127,7 @@ The Texas Instruments board send the inputs for the Arduino board which selects 
 
 #### Setting Up Python 🐍
 
-To run this project, you need to have Python installed along with the required dependencies.
-Ensure you have Python **3.8+** installed. You can download it from the official Python website:
+To run the vision controller, install Python and the project dependencies. Python **3.10+** is recommended. You can download it from the official Python website:
 [Download Python](https://www.python.org/downloads/)
 After installation, verify the installation by running:
 ```sh
@@ -124,41 +140,14 @@ python3 --version
 
 #### Libraries Python 📚
 
-For optimal program performance, it is recommended to use a machine with a dedicated and powerful graphic card. However, the program can also run on less powerful systems. The required libraries are:
-
-- `cv2`
-- `mediapipe`
-- `importlib`
-- `os`
-- `tkinter`
-- `POL`
-- `sys`
-- `time`
-- `math`
-- `collections`
-- `pydantic`
-- `numpy`
-- `pyserial`
-- `threading`
+For best responsiveness, use a machine with a dedicated GPU; the controller can also run on CPU. The third-party Python packages are declared in [`Python Code/requirements.txt`](./Python%20Code/requirements.txt). Standard-library modules such as `os`, `math`, `threading` and `tkinter` are not installed with `pip`.
 
 #### Library Installation ⚙️
 
-It is recommended to install all these libraries before running the program to avoid errors during runtime. Below are the commands to install the libraries via `pip`:
+Install the declared dependencies from the `Python Code` directory:
 
 ```bash
-pip install opencv-python
-pip install mediapipe
-pip install importlib-metadata
-pip install python-os
-pip install tk
-pip install python-polling
-pip install sys
-pip install math
-pip install collections
-pip install pydantic
-pip install numpy
-pip install pyserial
-pip install threading
+python -m pip install -r requirements.txt
 ```
 
 ## Getting Started 🚀
