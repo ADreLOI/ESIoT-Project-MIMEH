@@ -5,7 +5,7 @@
 > **ICT Days 2025.** MIMEH was selected as the Embedded Software for the Internet of Things course representative (1 of 21 projects) for presentation at the University of Trento's ICT Days 2025.
 
 
-***Assoc. prof. <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Yildrim Kasim Sinan</a>***
+***Assoc. Prof. <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Kasim Sinan Yildirim</a>***
 
 **Group 10**: ***<u>De Marco Matthew</u>***, ***<u>Lo Iacono Andrea</u>***, ***<u>Pezzo Andrea</u>*** 
 
@@ -20,7 +20,21 @@
 
 <div align="center">
 
-  ![Version](https://img.shields.io/badge/version-1.0.0-2563eb?style=for-the-badge)  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![Arduino](https://img.shields.io/badge/Arduino_UNO_R4-00979D?style=for-the-badge&logo=arduino&logoColor=white)  ![License](https://img.shields.io/github/license/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/version-1.0.0-2563EB?style=for-the-badge)
+  [![Stars](https://img.shields.io/github/stars/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge&logo=github&label=Stars)](https://github.com/ADreLOI/ESIoT-Project-MIMEH/stargazers)
+  [![Contributors](https://img.shields.io/github/contributors/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)](https://github.com/ADreLOI/ESIoT-Project-MIMEH/graphs/contributors)
+  [![Forks](https://img.shields.io/github/forks/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)](https://github.com/ADreLOI/ESIoT-Project-MIMEH/forks)
+  [![Issues](https://img.shields.io/github/issues/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)](https://github.com/ADreLOI/ESIoT-Project-MIMEH/issues)
+  ![Repository Size](https://img.shields.io/github/repo-size/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)
+  ![Last Commit](https://img.shields.io/github/last-commit/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)
+  ![License](https://img.shields.io/github/license/ADreLOI/ESIoT-Project-MIMEH?style=for-the-badge)
+
+</div>
+
+<div align="center">
+
+  ![Course](https://img.shields.io/badge/course-Embedded%20Software%20for%20IoT-0F766E?style=for-the-badge)
+  ![Recognition](https://img.shields.io/badge/recognition-ICT%20Days%202025-F59E0B?style=for-the-badge)
 
 </div>
 
@@ -31,8 +45,7 @@
 <details>
 <summary><h2>Table of Contents 📖</h2></summary>
 
-- [M.I.M.E.H Project for Embedded Software for the Internet of Things](#mimeh-project-for-embedded-software-for-the-internet-of-things)
-  - [Table of Contents](table-of-contents)
+- [M.I.M.E.H. — Mixed-mode Intelligent Mechanical Electronic Hand](#mimeh--mixed-mode-intelligent-mechanical-electronic-hand)
   - [Quick start](#quick-start)
   - [Idea of the project](#idea-of-the-project-)
   - [Requirements](#requirements-)
@@ -508,7 +521,7 @@ The project was a collaborative effort, with development divided into distinct a
 ---
 
 <!--=========================================================================-->
-**Embedded Software for the Internet of Things Course** - ***Professor: <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Yildrim Kasim Sinan</a>***
+**Embedded Software for the Internet of Things** — ***Professor: <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Kasim Sinan Yildirim</a>***
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <a href="https://fablab.unitn.it/" target="_blank">
