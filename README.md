@@ -9,9 +9,6 @@
 
 **Group 10**: ***<u>De Marco Matthew</u>***, ***<u>Lo Iacono Andrea</u>***, ***<u>Pezzo Andrea</u>*** 
 
-> [!NOTE]\
-> To view this file in preview mode, open it in a text editor like Visual Studio Code, Atom, or an online Markdown viewer such as [Dillinger](https://dillinger.io/). Otherwise, if the project is opened in your compiler, such as PyCharm, the preview will be displayed automatically.
-
 <div align="center">
 <img src="Assets/Loghi/logo.jpg">
 </div>
@@ -502,8 +499,8 @@ The project was a collaborative effort, with development divided into distinct a
 | Team member | GitHub | LinkedIn | Email |
 | --- | --- | --- | --- |
 | Matthew De Marco | [@MattDema](https://github.com/MattDema) | [Matthew De Marco](https://www.linkedin.com/in/matt-de-marco/) | [matthew.demarco@studenti.unitn.it](mailto:matthew.demarco@studenti.unitn.it) |
-| Andrea Lo Iacono | [@ADreLOI](https://github.com/ADreLOI) | [LinkedIn](https://www.linkedin.com/in/adreloi) | [andrea.loiacono@studenti.unitn.it](mailto:andrea.loiacono@studenti.unitn.it) |
-| Andrea Pezzo | [@AndreaP2203](https://github.com/AndreaP2203) | [LinkedIn](https://www.linkedin.com/in/andrea-pezzo-34525b191) | [andrea.pezzo-1@studenti.unitn.it](mailto:andrea.pezzo-1@studenti.unitn.it) |
+| Andrea Lo Iacono | [@ADreLOI](https://github.com/ADreLOI) | [Andrea Lo Iacono](https://www.linkedin.com/in/adreloi) | [andrea.loiacono@studenti.unitn.it](mailto:andrea.loiacono@studenti.unitn.it) |
+| Andrea Pezzo | [@AndreaP2203](https://github.com/AndreaP2203) | [Andrea Pezzo](https://www.linkedin.com/in/andrea-pezzo-34525b191) | [andrea.pezzo-1@studenti.unitn.it](mailto:andrea.pezzo-1@studenti.unitn.it) |
 
 > LinkedIn profile links are included only when confirmed, so the README never directs visitors to the wrong person.
 
