@@ -2,7 +2,7 @@
 
 # M.I.M.E.H. — Mixed-mode Intelligent Mechanical Electronic Hand
 
-> **ICT Days 2025.** MIMEH was selected as the Embedded Software for the Internet of Things course representative (1 of 21 projects) for presentation at the University of Trento's ICT Days 2025.
+> **ICT Days 2025.** MIMEH was the only project selected from 25 Embedded Software for the Internet of Things course projects to represent the course at the University of Trento's ICT Days 2025.
 
 
 ***Assoc. Prof. <a href="https://webapps.unitn.it/du/it/Persona/PER0212812/Didattica">Kasim Sinan Yildirim</a>***
